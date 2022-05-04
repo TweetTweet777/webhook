@@ -15,6 +15,6 @@ jobs:
           description: "Message"
           nofail: false
           nodetail: true
-          image: "https://user-images.githubusercontent.com/33576079/81886735-69e03f80-95d8-11ea-8828-fa10dda8afd1.png"
+          image: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ramphastos_toco_Whipsnade_Zoo.jpg"
           color: 0xFFFFFF
           username: ToucanMan
