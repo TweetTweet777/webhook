@@ -16,5 +16,6 @@ jobs:
           nofail: false
           nodetail: true
           image: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ramphastos_toco_Whipsnade_Zoo.jpg"
-          color: 0xFFFFFF
+          color: 0xF05E16
           username: ToucanMan
+          avatar_url: ${{ secrets.AVATAR_URL }}
