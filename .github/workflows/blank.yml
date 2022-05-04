@@ -8,17 +8,13 @@ jobs:
     steps:
     # checkout cannot detect job
       # - uses: actions/checkout@v2
-      - name: run simple
-        # do not reference as local action! (runs: ./)
-        uses: sarisia/actions-status-discord@releases/v1
       - name: run full
         uses: sarisia/actions-status-discord@releases/v1
         with:
-          status: Failure
           title: "ToucanMan"
-          description: "testing `releases/v1` branch"
+          description: "Message"
           nofail: false
-          nodetail: false
+          nodetail: true
           image: "https://user-images.githubusercontent.com/33576079/81886735-69e03f80-95d8-11ea-8828-fa10dda8afd1.png"
           color: 0xFFFFFF
-          username: GitHub Actions
+          username: ToucanMan
